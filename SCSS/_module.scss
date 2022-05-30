@@ -1,0 +1,67 @@
+.circle_button_sm {
+    width: 128px;
+    height: 40px;
+
+    border-radius: 22px;
+
+    cursor: pointer;
+}
+
+.circle_button_normal {
+    width: 136px;
+    height: 49px;
+
+    border-radius: 27px;
+
+    font-size: 18px;
+
+    cursor: pointer;
+}
+
+.red_button {
+    color:white;
+    background: #FF5D50;
+    border: 1px solid #FF5D50;
+}
+
+.green_button {
+    color:white;
+    background: #56C4C5;
+    border: 1px solid #56C4C5;
+}
+
+.top {
+    height: $top_size;
+    width: $top_size;
+    position: absolute;
+    color: white;
+    font-size: 18px;
+
+    background-image: url("/images/ball01.svg");
+    background-size: $top_size;
+    
+    bottom: $top_margin;
+    right: $top_margin;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.gray_dot
+{
+    width: 10px;
+    height: 10px;
+    background: #DDDDDD 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+}
+
+.yellow_dot 
+{
+    width: 16px;
+    height: 10px;
+    background: #FFD153 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+}
