@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>聊天機器人</title>
-    <link rel="stylesheet" href="css/all.css">
+    <base href="/ChatBot">
+    <link rel="stylesheet" href="/css/all.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <div class="wrap">
+    <div class="wrap wrap_home">
         <div class="top">
             <div>TOP</div>
         </div>
@@ -17,10 +18,10 @@
             <div class="header_back"></div>
             <div class="navbar">
                 <div>
-                    <img class="navbar_img" src="images/logo.png" alt="">
+                    <img class="navbar_img" src="images/logo.png" alt="" onclick="ChangIndex()">
                 </div>
                 <div>
-                    <button type="button" class="circle_button_sm red_button">方案費用</button>
+                    <button type="button" class="circle_button_sm red_button" onclick="ChangProgram()">方案費用</button>
                 </div>
             </div>
             <div class="banner">
@@ -212,4 +213,6 @@
     </div>
 </body>
 <script src="JS/all.js"></script>
+<script>
+</script>
 </html>
