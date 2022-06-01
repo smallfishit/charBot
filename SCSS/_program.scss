@@ -1,6 +1,6 @@
 .wrap {
     &.wrap_program {
-        background: url("/images/banner.svg");
+        background: url("images/banner.svg");
         background-repeat: no-repeat;
         background-position: top right;
     }
@@ -132,7 +132,7 @@
                         margin-left: 32px;
                         li {
                             margin-top: 16px;
-                            list-style-image: url("/images/icon_check.svg");
+                            list-style-image: url("images/icon_check.svg");
                         }
                     }
 
