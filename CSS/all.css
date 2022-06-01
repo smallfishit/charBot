@@ -160,13 +160,13 @@ body {
 }
 
 .icon_plus {
-  background-image: url("images/icon_plus.svg");
+  background-image: url("../images/icon_plus.svg");
   background-repeat: no-repeat;
   background-size: 20px 20px;
 }
 
 .icon_minus {
-  background-image: url("images/icon_minus.svg");
+  background-image: url("../images/icon_minus.svg");
   background-repeat: no-repeat;
   background-size: 20px 20px;
 }
@@ -177,7 +177,7 @@ body {
   position: relative;
 }
 .wrap.wrap_home {
-  background-image: url("images/bg_home.svg");
+  background-image: url("../images/bg_home.svg");
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -190,7 +190,7 @@ body {
 .header .banner {
   height: 534px;
   padding-bottom: 116px;
-  background-image: url("images/home.svg");
+  background-image: url("../images/home.svg");
   background-size: 532px 534px;
   background-repeat: no-repeat;
   background-position: top right;
@@ -221,7 +221,7 @@ body {
   position: absolute;
   bottom: -180px;
   left: -141px;
-  background-image: url("images/ball01.svg");
+  background-image: url("../images/ball01.svg");
   background-size: 360px;
   background-position-x: calc( 141px - 360px );
   background-position-y: 0;
@@ -455,7 +455,7 @@ body {
           justify-content: space-between;
 }
 .content .comment .comment_list .comment_item .comment_item_star .star {
-  background-image: url("images/icon_star.svg");
+  background-image: url("../images/icon_star.svg");
   background-size: cover;
   margin-left: 8px;
   width: 16px;
@@ -480,7 +480,7 @@ body {
 .footer .footer_main {
   height: 503px;
   padding-top: 260px;
-  background-image: url("images/home_footer.svg");
+  background-image: url("../images/home_footer.svg");
   background-size: 100% 503px;
 }
 .footer .footer_main .footer_title {
@@ -499,7 +499,7 @@ body {
 }
 
 .wrap.wrap_program {
-  background: url("images/banner.svg");
+  background: url("../images/banner.svg");
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -636,7 +636,7 @@ body {
 }
 .content .content_program .content_program_list .content_program_item .content_program_item_region ul li {
   margin-top: 16px;
-  list-style-image: url("images/icon_check.svg");
+  list-style-image: url("../images/icon_check.svg");
 }
 .content .content_program .content_program_list .content_program_item .content_program_item_region .content_program_item_button {
   margin-top: 32px;

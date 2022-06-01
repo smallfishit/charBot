@@ -4,7 +4,7 @@
     position: relative;
 
     &.wrap_home {
-        background-image: url("images/bg_home.svg");
+        background-image: url("../images/bg_home.svg");
         background-repeat: no-repeat;
         background-position: top right;
     }
@@ -19,7 +19,7 @@
         height: 534px;
         padding-bottom: 116px;
 
-        background-image: url("images/home.svg");
+        background-image: url("../images/home.svg");
         background-size: 532px 534px;
         background-repeat: no-repeat;
         background-position: top right;
@@ -57,7 +57,7 @@
         bottom: -180px;
         left: -$left_image_width;
 
-        background-image: url("images/ball01.svg");
+        background-image: url("../images/ball01.svg");
         background-size: $left_image_height;
         background-position-x: calc( #{$left_image_width} - #{$left_image_height} );
         background-position-y: 0;
@@ -292,7 +292,7 @@
                     justify-content: space-between;
 
                     .star {
-                        background-image: url("images/icon_star.svg");
+                        background-image: url("../images/icon_star.svg");
                         background-size: cover;
                         margin-left: 8px;
                         width: 16px;
@@ -320,7 +320,7 @@
     {
         height: 503px;
         padding-top: 260px;
-        background-image: url("images/home_footer.svg");
+        background-image: url("../images/home_footer.svg");
         background-size: 100% 503px;
 
         .footer_title {
