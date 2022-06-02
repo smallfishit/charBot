@@ -33,18 +33,33 @@
     color:white;
     background: #FF5D50;
     border: 1px solid #FF5D50;
+
+    &:hover {
+        background: #FA8072;
+        border: 1px solid #FA8072;
+    }
 }
 
 .white_green_button {
     color: #56C4C5;
     background: white;
     border: 1px solid #56C4C5;
+
+    &:hover {
+        color: #89F3F5;
+        border: 1px solid #89F3F5;
+    }
 }
 
 .green_button {
     color:white;
     background: #56C4C5;
     border: 1px solid #56C4C5;
+
+    &:hover {
+        background: #89F3F5;
+        border: 1px solid #89F3F5;
+    }
 }
 
 .green {

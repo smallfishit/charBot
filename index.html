@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>聊天機器人</title>
-    <base href="/charBot/">
+    <title>首頁 - 聊天機器人</title>
+    <!--<base href="/charBot/">-->
+    <base href="/">
     <link rel="stylesheet" href="CSS/all.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
@@ -14,22 +15,27 @@
         <div class="top">
             <div>TOP</div>
         </div>
-        <div class="header">
+        <div class="header_index">
             <div class="header_back"></div>
-            <div class="navbar">
-                <div>
-                    <img class="navbar_img" src="images/logo.png" alt="" onclick="ChangIndex()">
+            <div class="header">
+                <div class="navbar">
+                    <div>
+                        <img class="navbar_img" src="images/logo.png" alt="" onclick="ChangIndex()">
+                    </div>
+                    <div>
+                        <button type="button" class="circle_button_sm red_button" onclick="ChangProgram()">方案費用</button>
+                    </div>
                 </div>
-                <div>
-                    <button type="button" class="circle_button_sm red_button" onclick="ChangProgram()">方案費用</button>
-                </div>
-            </div>
-            <div class="banner">
-                <div class="banner_content">
-                    <p class="banner_content_title">ChatTalker最全面的聊天機器人</p>
-                    <p class="banner_content_main">你愛我像誰？</p>
-                    <p class="banner_content_main">扮演什麼角色我都會</p>
-                    <p class="banner_content_other">Facebook、Instagram、LINE聊天機器人解決方案</p>
+                <div class="banner">
+                    <div class="banner_content">
+                        <h1 class="banner_content_title">ChatTalker最全面的聊天機器人</h1>
+                        <p class="banner_content_main">你愛我像誰？</p>
+                        <p class="banner_content_main">扮演什麼角色我都會</p>
+                        <p class="banner_content_other">Facebook、Instagram、LINE聊天機器人解決方案</p>
+                    </div>
+                    <div>
+                        <img class="banner_img" src="images/home.svg"/>
+                    </div>
                 </div>
             </div>
         </div>
@@ -134,12 +140,13 @@
                             <p class="feature_content">深入用戶日常，成為用戶貼身好友<br/>精準傳遞品牌資訊，打造個人化專屬服務<br/>不知不覺深入用戶生活，成為用戶貼心的好朋朋:D</p>
                         </div>
                         <div class="feature_button">
-                            <button class="circle_button_normal green_button">方案費用</button>
+                            <button class="circle_button_normal green_button" onclick="ChangProgram()">方案費用</button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="comment">
+                <div class="comment_back"></div>
                 <div class="comment_title">好評如潮</div>
                 <div class="comment_list">
                     <div class="comment_item">
@@ -203,7 +210,7 @@
             <div class="footer_main">
                 <p class="footer_title">\ 美好用戶體驗，從對話開始 /</p>
                 <div class="footer_button">
-                    <button class="circle_button_normal green_button">方案費用</button>
+                    <button class="circle_button_normal green_button" onclick="ChangProgram()">方案費用</button>
                 </div>
             </div>
             <div class="footer_copyright">
