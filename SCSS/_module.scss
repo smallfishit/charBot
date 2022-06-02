@@ -29,6 +29,15 @@
     cursor: pointer;
 }
 
+@media all and (max-width: $mobile_width) {
+    .circle_button_normal2 {
+        width: 92px;
+        height: 40px;
+        font-size: 16px;
+    }
+}
+
+
 .red_button {
     color:white;
     background: #FF5D50;

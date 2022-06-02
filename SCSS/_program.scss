@@ -1,13 +1,20 @@
 .wrap {
-    .wrap_program {
-        position: absolute;
-        height: 559px;
-        width: 100%;
-        background: url("../images/banner.svg");
+    &.wrap_program {
+        background: url("../images/ball03.svg");
         background-repeat: no-repeat;
-        background-position: top right;
-        z-index: -1;
+        background-position: -25% 50%;
+        background-size: $left_image_height;
     }
+}
+
+.program_back_img {
+    position: absolute;
+    height: 559px;
+    width: 100%;
+    background: url("../images/banner.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    z-index: -1;
 }
 
 .program_back {
@@ -40,6 +47,48 @@
     }
 }
 
+@media all and (max-width: $content_width) {
+}
+
+@media all and (max-width: $mobile_width) {
+    .wrap {
+        &.wrap_program {
+            background-position: calc(90px - 204px) 50%;
+            background-size: 204px;
+            z-index: -10;
+        }
+    }
+
+    .program_back_img {
+        top: 90px;
+        max-height: 495px;
+        max-width: calc(100vw - 40px - #{$scroll_width});
+        background: url("../images/banner_sm.svg");
+        background-repeat: no-repeat;
+        background-position: right bottom;
+    }
+
+    .program_back {
+        top: 90px;
+        max-height: 495px;
+        max-width: calc(100vw - 40px - #{$scroll_width});
+        border-radius: 0px 0px 0px 150px;
+    }
+
+    .header {
+        height: 495px;
+        .program_banner {
+            margin-top: 0;
+
+            .program_banner_title {
+                margin-top: 48px;
+                font-size: 32px;
+                line-height: 46px;
+            }
+        }
+    }
+}
+
 .content {
     position: relative;
 
@@ -54,6 +103,8 @@
         background-size: $left_image_height;
         background-position-x: calc( 94px - #{$left_image_height} );
         background-position-y: 0;
+
+        z-index: -2;
     }
 
     .content_program {
@@ -70,13 +121,15 @@
         }
 
         .content_member_list {
-            margin-top: 48px;
+            margin-top: 32px;
             display: flex;
             justify-content: center;
+            flex-wrap: wrap;
 
             div {
                 width: 130px;
                 margin: 0 8px;
+                margin-top: 16px;
             }
         }
 
@@ -84,12 +137,14 @@
             margin-top: 54px;
             display: flex;
             justify-content: space-between;
+            flex-wrap: wrap;
 
             .content_program_item {
                 width: 444px;
-                height: 570px;
+                min-height: 570px;
                 box-shadow: 0px 2px 10px #00000014;
                 border-radius: 12px;
+                background: white;
 
                 .content_program_item_line {
                     border: 1px solid #DDDDDD;
@@ -221,6 +276,83 @@
         .content_problem_icon {
             height: 20px;
             width: 20px;
+        }
+    }
+}
+
+@media all and (max-width: $content_width) {
+}
+
+@media all and (max-width: $mobile_width) {
+    .program_banner {
+        position: relative;
+    }
+    .content {
+        .content_back {
+            width: 96px;
+            height: 204px;
+        }
+
+        .content_program {
+            margin-top: 60px;
+            .content_program_title {
+                font-size: 28px;
+                line-height: 40px;
+            }
+
+            .content_member_list {
+                margin-top: 16px;
+
+                div {
+                    margin-top: 8px;
+                }
+            }
+
+            .content_program_list {
+                width: 444px;
+                max-width: 100%;
+                flex-direction: column;
+                margin: 0 auto;
+                margin-top: 8px;
+
+                .content_program_item {
+                    width: 444px;
+                    max-width: 100%;
+                    margin-top: 16px;
+
+                    .content_program_item_region {
+    
+                        .content_program_item_content {
+                        }
+    
+                        .content_program_item_list {
+    
+                            .content_program_item_symbol {
+                            }
+    
+                            .content_program_item_rect {
+                                width: 130px;
+    
+                                .content_program_item_rect_big {
+                                }
+    
+                                .content_program_item_rect_sm {
+                                }
+                            }
+    
+                        }
+    
+                        ul {
+                            li {
+                            }
+                        }
+    
+                        .content_program_item_button {
+                            margin-bottom: 24px;
+                        }
+                    }
+                }
+            }
         }
     }
 }

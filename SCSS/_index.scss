@@ -24,7 +24,10 @@
     .wrap {
 
         &.wrap_home {
-            background: none;
+            background: url("../images/ball02.svg");
+            background-repeat: no-repeat;
+            background-position: 110% 50%;
+            background-size: 135px;
         }
     }
 }
@@ -510,6 +513,7 @@
             margin-top: 60px;
 
             .feature_main {
+                width: 100%;
                 text-align: center;
             }
 
