@@ -180,8 +180,8 @@
         margin: 0 auto;
 
         .community_title {
-            text-align: center;
             font-size: 32px;
+            text-align: center;
             font-weight: 900;
         }
 
@@ -194,10 +194,10 @@
             .community_item {
                 width: 244px;
 
-                .community_img {
-                    margin: 0 auto;
+                .community_item_img {
                     width: 90px;
                     height: 90px;
+                    margin: 0 auto;
 
                     img {
                         width: 100%;
@@ -205,12 +205,12 @@
                     }
                 }
 
-                .community_title {
+                .community_item_title {
                     font-size: 24px;
+                    line-height: 35px;
                 }
 
-                .community_content {
-                    font-size: 16px;
+                .community_item_content {
                     color: #747474;
                 }
 
@@ -218,6 +218,7 @@
                     margin-top: 24px;
                     text-align: center;
                 }
+
             }
         }
     }
