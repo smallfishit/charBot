@@ -778,7 +778,6 @@ body {
   .wrap.wrap_program {
     background-position: -114px 50%;
     background-size: 204px;
-    z-index: -10;
   }
 
   .program_back_img {
