@@ -48,6 +48,9 @@
 }
 
 @media all and (max-width: $content_width) {
+    .program_back_img, .program_back {
+        width: calc(100vw - 40px);
+    }
 }
 
 @media all and (max-width: $mobile_width) {

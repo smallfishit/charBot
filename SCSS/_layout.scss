@@ -59,6 +59,8 @@
 
 @media all and (max-width: $mobile_width) {
     .top {
+        height: $top_size_sm;
+        width: $top_size_sm;
         bottom: $top_margin_sm;
         right: $top_margin_sm;
     }

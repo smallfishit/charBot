@@ -45,8 +45,8 @@ function initSwiper() {
         
         /* 斷點設定 */
         breakpoints: {
-            /* 螢幕寬度大於等於 992px 時切換為 3 欄 */
-            992: {
+            /* 螢幕寬度大於等於 1085px 時切換為 3 欄 */
+            1085: {
                 slidesPerView: 3
             },
             /* 螢幕寬度大於等於 768px 時切換為 2 欄 */

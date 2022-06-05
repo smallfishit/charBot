@@ -118,6 +118,8 @@ body {
 
 @media all and (max-width: 768px) {
   .top {
+    height: 50px;
+    width: 50px;
     bottom: 14px;
     right: 14px;
   }
@@ -429,17 +431,23 @@ body {
   margin-top: 16px;
 }
 .content .role .role_list {
-  margin-top: 48px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-left: -16px;
+  margin-top: 24px;
 }
 .content .role .role_list .role_item {
   -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.0784313725);
           box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.0784313725);
   border-radius: 12px;
   background-color: white;
+  margin-top: 24px;
   padding-left: 16px;
   width: calc(260px+16px);
 }
@@ -478,6 +486,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 0 auto;
 }
 .content .feature .feature_list .feature_item {
   width: 230px;
@@ -558,7 +567,7 @@ body {
 }
 .content .comment .comment_list .comment_item {
   margin-top: 80px;
-  width: 352px;
+  max-width: 352px;
   -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.0784313725);
           box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.0784313725);
   position: relative;
@@ -619,6 +628,17 @@ body {
           justify-content: space-between;
 }
 
+@media all and (max-width: 1085px) {
+  .content .feature .feature_main {
+    margin: 0 auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .content .comment .comment_list {
+    max-width: calc(352px*2 + 16px);
+  }
+}
 @media all and (max-width: 768px) {
   .content .community .community_title {
     font-size: 28px;
@@ -689,15 +709,6 @@ body {
   }
   .content .comment .comment_list {
     max-width: 352px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin: 0 auto;
-  }
-  .content .comment .comment_list .comment_item {
-    max-width: 352px;
-    margin-top: 80px;
   }
 }
 .footer {
@@ -771,6 +782,11 @@ body {
   margin-top: 16px;
 }
 
+@media all and (max-width: 1085px) {
+  .program_back_img, .program_back {
+    width: calc(100vw - 40px);
+  }
+}
 @media all and (max-width: 768px) {
   .wrap.wrap_program {
     background-position: -114px 50%;
