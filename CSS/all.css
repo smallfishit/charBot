@@ -122,14 +122,19 @@ body {
     right: 14px;
   }
 }
-.gray_dot {
+.swiper-pagination {
+  position: inherit;
+  margin-top: 24px;
+}
+
+.gray_dot, .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
   background: #DDDDDD 0% 0% no-repeat padding-box;
   border-radius: 50%;
 }
 
-.yellow_dot {
+.yellow_dot, .swiper-pagination-bullet.swiper-pagination-bullet-active {
   width: 16px;
   height: 10px;
   background: #FFD153 0% 0% no-repeat padding-box;
@@ -549,19 +554,11 @@ body {
   font-weight: 900;
 }
 .content .comment .comment_list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-top: 104px;
+  margin-top: 24px;
 }
 .content .comment .comment_list .comment_item {
+  margin-top: 80px;
   width: 352px;
-  height: 248px;
   -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.0784313725);
           box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.0784313725);
   position: relative;

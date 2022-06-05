@@ -7,6 +7,7 @@
     <title>首頁 - 聊天機器人</title>
     <base href="/charBot/">
     <!--<base href="/">-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="CSS/all.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
@@ -148,62 +149,107 @@
             <div class="comment">
                 <div class="comment_back"></div>
                 <div class="comment_title">好評如潮</div>
-                <div class="comment_list">
-                    <div class="comment_item">
-                        <img src="images/user01.jpg" alt="Lina 執行長" title="Lina 執行長" class="comment_item_img">
-                        <div class="comment_item_content">原來聊天機器人可以這麼有人性！團隊有完整的行銷計畫提供數位整合，讓我們公司的產品用更活潑的方式讓使用者認識。</div>
-                        <div class="comment_item_line"></div>
-                        <div class="comment_item_company">清心寡慾設計公司</div>
-                        <div class="comment_item_region">
-                            <div>Lina 執行長</div>
-                            <div class="comment_item_star">
-                                <div class="star"></div>
-                                <div class="star"></div>
-                                <div class="star"></div>
-                                <div class="star"></div>
-                                <div class="star"></div>
+                <div class="comment_list swiper mySwiper" >
+                    <div class="swiper-wrapper">
+                        <div class="comment_item swiper-slide">
+                            <img src="images/user01.jpg" alt="Lina 執行長" title="Lina 執行長" class="comment_item_img">
+                            <div class="comment_item_content">原來聊天機器人可以這麼有人性！團隊有完整的行銷計畫提供數位整合，讓我們公司的產品用更活潑的方式讓使用者認識。</div>
+                            <div class="comment_item_line"></div>
+                            <div class="comment_item_company">清心寡慾設計公司</div>
+                            <div class="comment_item_region">
+                                <div>Lina 執行長</div>
+                                <div class="comment_item_star">
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment_item swiper-slide">
+                            <img src="images/user02.jpg" alt="Zoe 活動長" title="Zoe 活動長" class="comment_item_img">
+                            <div class="comment_item_content">團隊很積極的協助行銷追蹤，針對機器人進行優化，讓我們一個月內提高10000個追蹤者，客戶體驗回饋很正面！</div>
+                            <div class="comment_item_line"></div>
+                            <div class="comment_item_company">subwhat 行銷公司</div>
+                            <div class="comment_item_region">
+                                <div>Zoe 活動長</div>
+                                <div class="comment_item_star">
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment_item swiper-slide">
+                            <img src="images/user03.jpg" alt="HowBig" title="HowBig" class="comment_item_img">
+                            <div class="comment_item_content">經營了好久的IG，一直無法提升粉絲數，和團隊合作後，才知道可以用聊天機器人玩這麼豐富的行銷活動！太讚拉～</div>
+                            <div class="comment_item_line"></div>
+                            <div class="comment_item_company">油土伯</div>
+                            <div class="comment_item_region">
+                                <div>HowBig</div>
+                                <div class="comment_item_star">
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment_item swiper-slide">
+                            <img src="images/user01.jpg" alt="Lina 執行長" title="Lina 執行長" class="comment_item_img">
+                            <div class="comment_item_content">原來聊天機器人可以這麼有人性！團隊有完整的行銷計畫提供數位整合，讓我們公司的產品用更活潑的方式讓使用者認識。</div>
+                            <div class="comment_item_line"></div>
+                            <div class="comment_item_company">清心寡慾設計公司</div>
+                            <div class="comment_item_region">
+                                <div>Lina 執行長</div>
+                                <div class="comment_item_star">
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment_item swiper-slide">
+                            <img src="images/user02.jpg" alt="Zoe 活動長" title="Zoe 活動長" class="comment_item_img">
+                            <div class="comment_item_content">團隊很積極的協助行銷追蹤，針對機器人進行優化，讓我們一個月內提高10000個追蹤者，客戶體驗回饋很正面！</div>
+                            <div class="comment_item_line"></div>
+                            <div class="comment_item_company">subwhat 行銷公司</div>
+                            <div class="comment_item_region">
+                                <div>Zoe 活動長</div>
+                                <div class="comment_item_star">
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment_item swiper-slide">
+                            <img src="images/user03.jpg" alt="HowBig" title="HowBig" class="comment_item_img">
+                            <div class="comment_item_content">經營了好久的IG，一直無法提升粉絲數，和團隊合作後，才知道可以用聊天機器人玩這麼豐富的行銷活動！太讚拉～</div>
+                            <div class="comment_item_line"></div>
+                            <div class="comment_item_company">油土伯</div>
+                            <div class="comment_item_region">
+                                <div>HowBig</div>
+                                <div class="comment_item_star">
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                    <div class="star"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="comment_item">
-                        <img src="images/user02.jpg" alt="Zoe 活動長" title="Zoe 活動長" class="comment_item_img">
-                        <div class="comment_item_content">團隊很積極的協助行銷追蹤，針對機器人進行優化，讓我們一個月內提高10000個追蹤者，客戶體驗回饋很正面！</div>
-                        <div class="comment_item_line"></div>
-                        <div class="comment_item_company">subwhat 行銷公司</div>
-                        <div class="comment_item_region">
-                            <div>Zoe 活動長</div>
-                            <div class="comment_item_star">
-                                <div class="star"></div>
-                                <div class="star"></div>
-                                <div class="star"></div>
-                                <div class="star"></div>
-                                <div class="star"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="comment_item">
-                        <img src="images/user03.jpg" alt="HowBig" title="HowBig" class="comment_item_img">
-                        <div class="comment_item_content">經營了好久的IG，一直無法提升粉絲數，和團隊合作後，才知道可以用聊天機器人玩這麼豐富的行銷活動！太讚拉～</div>
-                        <div class="comment_item_line"></div>
-                        <div class="comment_item_company">油土伯</div>
-                        <div class="comment_item_region">
-                            <div>HowBig</div>
-                            <div class="comment_item_star">
-                                <div class="star"></div>
-                                <div class="star"></div>
-                                <div class="star"></div>
-                                <div class="star"></div>
-                                <div class="star"></div>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
-            </div>
-            <div class="dots">
-                <div class="gray_dot"></div>
-                <div class="gray_dot"></div>
-                <div class="gray_dot"></div>
-                <div class="yellow_dot"></div>
             </div>
         </div>
         <div class="footer">
@@ -219,7 +265,7 @@
         </div>
     </div>
 </body>
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <script src="JS/all.js"></script>
-<script>
-</script>
 </html>
